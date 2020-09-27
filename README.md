@@ -8,14 +8,14 @@ UK Public Transport will help user utilize the public transportation for the ful
 
 > Prerequisites
 >
-> > Basic Knowledge of JavaScript and Node.js
-> > Alexa Skills Kit SDK for Node.js
-> > Amazon AWS Account for deploying Lambda Function
-> > Google API Key with Google Maps API, Google Static Map API, and URL Shorting API enabled
-> > Transport API account
-> > bespoken.tools for Testing
-> > Echosim.io for Testing
-> > Mocha for testing
+> > Basic Knowledge of JavaScript and Node.js</br>
+> > Alexa Skills Kit SDK for Node.js</br>
+> > Amazon AWS Account for deploying Lambda Function</br>
+> > Google API Key with Google Maps API, Google Static Map API, and URL Shorting API enabled</br>
+> > Transport API account</br>
+> > bespoken.tools for Testing</br>
+> > Echosim.io for Testing</br>
+> > Mocha for testing</br>
 
 ## Three Options for Skill Setup
 
