@@ -1,0 +1,141 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "plan a trip",
+        "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "NearByTrainIntent",
+          "slots": [
+                {
+                    "name": "location",
+                    "type": "LOCATION_LIST"
+                }
+            ],
+          "samples": [
+            "find stations nearby {location}",
+            "find any stations nearby {location}",
+            "find station nearby {location}",
+            "find train station nearby {location}",
+            "find train stations nearby {location}",
+            "what are the stations nearby {location}",
+            "what are the train stations nearby {location}",
+            "for stations nearby {location}",
+            "for station nearby {location}",
+            "for any station nearby {location}",
+            "find stations near {location}",
+            "find any stations near {location}",
+            "find station near {location}",
+            "find train stations near {location}",
+            "what are the stations near {location}",
+            "what are the train stations near {location}",
+            "for stations near {location}",
+            "for station near {location}",
+            "for any station near {location}"
+          ]
+        },
+        {
+            "name": "PlanPublicTransportIntent",
+            "slots": [
+                {
+                    "name": "from",
+                    "type": "LOCATION_LIST"
+                },
+                {
+                    "name": "to",
+                    "type": "LOCATION_LIST"
+                }
+            ],
+            "samples": [
+            "plan a trip from {from} to {to}",
+            "plan a trip from {from}",
+            "plan a trip to {to}",
+            "plan a trip"
+          ]
+        },
+        {
+            "name": "DateTimeIntent",
+            "slots": [
+                {
+                    "name": "date",
+                    "type": "AMAZON.DATE"
+                },
+                {
+                    "name": "time",
+                    "type": "AMAZON.TIME"
+                }
+            ],
+            "samples": [
+            "{date} {time}",
+            "{time} {date}",
+            "{date}",
+            "{time}",
+            "at {date} {time}",
+            "on {date} {time}",
+            "at {date}",
+            "on {date}",
+            "at {time}",
+            "on {time}"
+          ]
+        },{
+            "name": "LocationIntent",
+            "slots": [
+                {
+                    "name": "location",
+                    "type": "LOCATION_LIST"
+                }
+            ],
+            "samples": [
+            "{location}",
+            "to {location}",
+            "from {location}",
+            "for {location}"
+          ]
+        },
+        {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": []
+        }
+      ],
+    "types": [
+        {
+            "name": "LOCATION_LIST",
+            "values": [
+              {
+                  "name": {
+                      "value": "location",
+                      "synonyms": [
+                        "leeds",
+                        "bradford"
+                      ]
+                  }
+              }
+            ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Alexa Skill to plan trips with different mode of public transportation and know more about train stations it in UK.",
+          "examplePhrases": [
+            "Alexa open plan a trip",
+            "Alexa ask find station nearby leeds"
+          ],
+          "name": "plan a trip",
+          "description": "plan a trip, and Alexa will tell you."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:306269587914:function:ask-planatrip-default-default-1601222527230"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
